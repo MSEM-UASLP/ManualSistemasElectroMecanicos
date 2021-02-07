@@ -1,3 +1,7 @@
+#Universidad Autónoma de San Luis Potosí Enero 2020
+
+#----- INTRODUCCION -----
+#Trata de ejecutar paso a paso cada una de las siguientes instrucciones y analizalas con ayuda de tu instructor de laboratorio.
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
