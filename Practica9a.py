@@ -49,7 +49,8 @@ time_text = ax.text(0.05, 0.9, '', transform=ax.transAxes)
 
 
 def animate(i):
-    thisx = [x1[i]+1,0]
+    li=1
+    thisx = [x1[i]+li,0]
     line.set_data(thisx,0)
     time_text.set_text(time_template % (i*dt))
     return line, time_text
